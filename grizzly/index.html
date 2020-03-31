@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Grizzly</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,600,700,800,900&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-top"><a class="logo" href="#"><img src="img/logo.png" alt="logo"></a>
+          <div class="header-row__wrap">
+            <div class="header-row">
+              <div class="language"><a class="language__item language__item_active delimiter" href="#">рус</a><a class="language__item" href="#">eng</a></div>
+              <div class="cost"><span class="cost__text">Цены в </span><a class="cost__value" href="#">rub</a></div>
+              <div class="contacts">
+                <div class="contacts__item"><span class="contacts__country">Беларусь</span><a class="contacts__number" href="tel:+375296170015">+375 (29) 617-00-15</a></div>
+                <div class="contacts__item"> <span class="contacts__country">Россия</span><a class="contacts__number" href="tel:+74812302559">+7 (481) 230-25-59</a><span class="contacts__note">звонок бесплатный</span></div>
+              </div><a class="btn btn-primary consult" data-fancybox data-src="#modal" href="javascript:;">Консультация</a>
+            </div>
+          </div>
+        </div>
+        <div class="header-bottom">
+          <nav>
+            <ul class="menu">
+              <li class="menu__main menu__main_size"><a href="#">Ретрофит комплекты</a></li>
+              <li class="menu__item delimiter"><a href="#">токарные</a></li>
+              <li class="menu__item"><a href="#">фрезерные</a></li>
+              <li class="menu__item menu__item_gray"><a href="#">комплектация</a></li>
+              <li class="menu__item menu__item_margin"><a href="#">sitekgram</a></li>
+              <li class="menu__item menu-last"><a class="menu-last__link" href="#">
+                  <svg class="menu-last__icon">
+                    <use xlink:href="img/sprites/sprite.svg#file"></use>
+                  </svg>Мой файл<span class="menu-last__count">10</span></a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <section class="main">
+      <div class="container main-container">
+        <aside class="sidebar">
+          <ul class="sidebar-menu">
+            <li class="sidebar-menu__item"><a href="#">У вас есть</a></li>
+            <li class="sidebar-menu__item active"><a href="#">Мы предлагаем</a></li>
+            <li class="sidebar-menu__item"><a href="#">Как это работает</a></li>
+            <li class="sidebar-menu__item"><a href="#">Sinumerik 808D</a></li>
+            <li class="sidebar-menu__item"><a href="#">Кто мы</a></li>
+          </ul>
+          <ul class="sidebar-links">
+            <li class="sidebar-links__item"><a href="#">SITEKGRAM</a></li>
+            <li class="sidebar-links__item"><a href="#">ШЕСТЬ способов связаться с нами</a></li>
+          </ul>
+          <div class="sidebar-bg"></div>
+        </aside>
+        <div class="content">
+          <div class="content-wrap">
+            <div class="slider-wrap">
+              <div class="slider">
+                <div class="slider-item overlay"><a class="slider-item__play" href="#">
+                    <svg class="slider-item__icon">
+                      <use xlink:href="img/sprites/sprite.svg#play"></use>
+                    </svg></a><img class="slider-item__img" src="img/video.png" alt="slider">
+                  <p class="slider-item__text">Мы с 2012 года поставили ...<br>на сумму ...</p>
+                </div>
+                <div class="slider-item overlay"><a class="slider-item__play" href="#">
+                    <svg class="slider-item__icon">
+                      <use xlink:href="img/sprites/sprite.svg#play"></use>
+                    </svg></a><img class="slider-item__img" src="img/video.png" alt="slider">
+                  <p class="slider-item__text">Мы с 2012 года поставили ...<br>на сумму ...</p>
+                </div>
+                <div class="slider-item overlay"><a class="slider-item__play" href="#">
+                    <svg class="slider-item__icon">
+                      <use xlink:href="img/sprites/sprite.svg#play"></use>
+                    </svg></a><img class="slider-item__img" src="img/video.png" alt="slider">
+                  <p class="slider-item__text">Мы с 2012 года поставили ...<br>на сумму ...</p>
+                </div>
+                <div class="slider-item overlay"><a class="slider-item__play" href="#">
+                    <svg class="slider-item__icon">
+                      <use xlink:href="img/sprites/sprite.svg#play"></use>
+                    </svg></a><img class="slider-item__img" src="img/video.png" alt="slider">
+                  <p class="slider-item__text">Мы с 2012 года поставили ...<br>на сумму ...</p>
+                </div>
+              </div>
+              <ul class="slider-nav">
+                <li class="slider-arrow_prev slider-arrow">
+                  <svg class="slider-arrow__icon">
+                    <use xlink:href="img/sprites/sprite.svg#left-arrow"></use>
+                  </svg>
+                </li>
+                <li class="slider-arrow_next slider-arrow">
+                  <svg class="slider-arrow__icon">
+                    <use xlink:href="img/sprites/sprite.svg#right-arrow"></use>
+                  </svg>
+                </li>
+              </ul>
+            </div>
+            <div class="content-container"><span class="content__title">У вас есть все, <br> чтобы модернизировать<br>старый станок</span>
+              <div class="plus">
+                <div class="plus-block"><span class="plus-block__title">На каждом предприятии:</span>
+                  <ul class="plus-list">
+                    <li class="plus-list__item">Надежные, “неубиваемые” <br>советские станки типа  <br><b>16A20ФЗ, ГФ2171ФЗ, 16МЗ0ФЗ</b></li>
+                    <li class="plus-list__item">Штат опытных слесарей<br>и механиков, <br>способных восстановить станок</li>
+                  </ul><span class="plus-block__title">Но:</span>
+                  <ul class="plus-list">
+                    <li class="plus-list__item">Устаревшая электроника станка<br>нуждается в частых ремонтах</li>
+                    <li class="plus-list__item">Нет опытных сотрудников для<br>внедрения новой <br>системы управления</li>
+                  </ul>
+                </div>
+                <div class="plus-video"><img class="plus-video__img" src="img/video-sm.png" alt="video"><a href="#">
+                    <svg class="plus-video__icon">
+                      <use xlink:href="img/sprites/sprite.svg#play"></use>
+                    </svg></a><span class="plus-video__text">Краткий рассказ об этом</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="catalog">
+      <div class="container"><span class="catalog__title">КАТАЛОГ РЕТФРОФИТ-КОМПЛЕКТОВ</span>
+        <div class="filter-wrap">
+          <div class="filter">
+            <div class="filter-col"><span class="filter-col__title">Тип станка</span>
+              <ul class="filter-list">
+                <li class="filter-list__item">
+                  <input class="filter-list__input" type="checkbox" name="frez"><span class="filter-list__checkmark"></span>
+                  <label class="filter-list__label" for="frez">Фрезерный</label>
+                </li>
+                <li class="filter-list__item">
+                  <input class="filter-list__input" type="checkbox" name="frez"><span class="filter-list__checkmark"></span>
+                  <label class="filter-list__label" for="frez">Токарный</label>
+                </li>
+              </ul>
+            </div>
+            <div class="filter-col"><span class="filter-col__title">Модель станка</span>
+              <ul class="filter-list scroll">
+                <li class="filter-list__title">Бренд 1</li>
+                <li class="filter-list__item">
+                  <input class="filter-list__input" type="checkbox" name="frez"><span class="filter-list__checkmark"></span>
+                  <label class="filter-list__label" for="frez">16А20</label>
+                </li>
+                <li class="filter-list__title">Бренд 2</li>
+                <li class="filter-list__item">
+                  <input class="filter-list__input" type="checkbox" name="frez"><span class="filter-list__checkmark"></span>
+                  <label class="filter-list__label" for="frez">16А30</label>
+                </li>
+                <li class="filter-list__title">Бренд 3</li>
+                <li class="filter-list__item">
+                  <input class="filter-list__input" type="checkbox" name="frez"><span class="filter-list__checkmark"></span>
+                  <label class="filter-list__label" for="frez">16А30</label>
+                </li>
+                <li class="filter-list__title">Бренд 4</li>
+                <li class="filter-list__item">
+                  <input class="filter-list__input" type="checkbox" name="frez"><span class="filter-list__checkmark"></span>
+                  <label class="filter-list__label" for="frez">16А30</label>
+                </li>
+              </ul>
+            </div>
+            <div class="filter-col"><span class="filter-col__title">Вариант поставки
+                <svg class="filter-col__icon">
+                  <use xlink:href="img/sprites/sprite.svg#question"></use>
+                </svg></span>
+              <ul class="filter-list">
+                <li class="filter-list__item">
+                  <input class="filter-list__input" type="checkbox" name="frez"><span class="filter-list__checkmark"></span>
+                  <label class="filter-list__label" for="frez">Модули</label>
+                </li>
+                <li class="filter-list__item">
+                  <input class="filter-list__input" type="checkbox" name="frez"><span class="filter-list__checkmark"></span>
+                  <label class="filter-list__label" for="frez">Монтажные панели</label>
+                </li>
+                <li class="filter-list__item">
+                  <input class="filter-list__input" type="checkbox" name="frez"><span class="filter-list__checkmark"></span>
+                  <label class="filter-list__label" for="frez">Электрошкаф</label>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="filter-search">
+            <form class="filter-search__form">
+              <input class="filter-search__input" type="text" placeholder="Поиск">
+              <button class="filter-search__search-btn">
+                <svg class="filter-search__search-ic">
+                  <use xlink:href="img/sprites/sprite.svg#search"></use>
+                </svg>
+              </button>
+              <button class="filter-search__btn">Очистить форму
+                <svg class="filter-search__icon">
+                  <use xlink:href="img/sprites/sprite.svg#clean"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div><span class="show">Показано 3 из 8</span>
+        <div class="slider2-wrap">
+          <div class="slider2">
+            <div class="slider2-item"><img class="slider2-item__img" src="img/slider2.png" alt="slider2">
+              <div class="slider2-item__wrap"><a class="slider2-item__title" href="#">Ретрофит-комплект для станка 16А20</a>
+                <p class="slider2-item__text">Не дорогое ЧПУ, созданное SIEMENS, для конкуренции на азиатском рынке и производится в количестве более 10000 штук в год...</p><span class="slider2-item__cost">Цена от <b>6 000 €</b></span>
+                <ul class="slider2-tag">
+                  <li class="slider2-tag__item"><a href="#">Фрезерный</a></li>
+                  <li class="slider2-tag__item"><a href="#">15A20</a></li>
+                  <li class="slider2-tag__item"><a href="#">...</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="slider2-item"><img class="slider2-item__img" src="img/slider2.png" alt="slider2">
+              <div class="slider2-item__wrap"><a class="slider2-item__title" href="#">Ретрофит-комплект для станка 16А20</a>
+                <p class="slider2-item__text">Не дорогое ЧПУ, созданное SIEMENS, для конкуренции на азиатском рынке и производится в количестве более 10000 штук в год...</p><span class="slider2-item__cost">Цена от <b>6 000 €</b></span>
+                <ul class="slider2-tag">
+                  <li class="slider2-tag__item"><a href="#">Фрезерный</a></li>
+                  <li class="slider2-tag__item"><a href="#">15A20</a></li>
+                  <li class="slider2-tag__item"><a href="#">...  </a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="slider2-item"><img class="slider2-item__img" src="img/slider2.png" alt="slider2">
+              <div class="slider2-item__wrap"><a class="slider2-item__title" href="#">Ретрофит-комплект для станка 16А20</a>
+                <p class="slider2-item__text">Не дорогое ЧПУ, созданное SIEMENS, для конкуренции на азиатском рынке и производится в количестве более 10000 штук в год...</p><span class="slider2-item__cost">Цена от <b>6 000 €</b></span>
+                <ul class="slider2-tag">
+                  <li class="slider2-tag__item"><a href="#">Фрезерный</a></li>
+                  <li class="slider2-tag__item"><a href="#">15A20</a></li>
+                  <li class="slider2-tag__item"><a href="#">...      </a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="slider2-item"><img class="slider2-item__img" src="img/slider2.png" alt="slider2">
+              <div class="slider2-item__wrap"><a class="slider2-item__title" href="#">Ретрофит-комплект для станка 16А20</a>
+                <p class="slider2-item__text">Не дорогое ЧПУ, созданное SIEMENS, для конкуренции на азиатском рынке и производится в количестве более 10000 штук в год...</p><span class="slider2-item__cost">Цена от <b>6 000 €</b></span>
+                <ul class="slider2-tag">
+                  <li class="slider2-tag__item"><a href="#">Фрезерный</a></li>
+                  <li class="slider2-tag__item"><a href="#">15A20</a></li>
+                  <li class="slider2-tag__item"><a href="#">...</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="slider2-item"><img class="slider2-item__img" src="img/slider2.png" alt="slider2">
+              <div class="slider2-item__wrap"><a class="slider2-item__title" href="#">Ретрофит-комплект для станка 16А20</a>
+                <p class="slider2-item__text">Не дорогое ЧПУ, созданное SIEMENS, для конкуренции на азиатском рынке и производится в количестве более 10000 штук в год...</p><span class="slider2-item__cost">Цена от <b>6 000 €</b></span>
+                <ul class="slider2-tag">
+                  <li class="slider2-tag__item"><a href="#">Фрезерный</a></li>
+                  <li class="slider2-tag__item"><a href="#">15A20</a></li>
+                  <li class="slider2-tag__item"><a href="#">...</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <ul class="slider-nav">
+            <li class="slider-arrow_prev slider-arrow slider2-arrow_prev">
+              <svg class="slider-arrow__icon">
+                <use xlink:href="img/sprites/sprite.svg#left-arrow"></use>
+              </svg>
+            </li>
+            <li class="slider-arrow_next slider-arrow slider2-arrow_next">
+              <svg class="slider-arrow__icon">
+                <use xlink:href="img/sprites/sprite.svg#right-arrow"></use>
+              </svg>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="info">
+      <div class="container"><span class="info__title">ШЕСТЬ способов получить информацию</span>
+        <div class="info-block">
+          <ul class="info-tab">
+            <li class="info-tab__item" data-tab="1">01 Мой файл</li>
+            <li class="info-tab__item" data-tab="2">02 Видео 1х1</li>
+            <li class="info-tab__item" data-tab="3">03 Заказать вебинар</li>
+            <li class="info-tab__item" data-tab="4">04 Сотрудники</li>
+            <li class="info-tab__item active" data-tab="5">05 FAQ</li>
+          </ul>
+          <ul class="info-content">
+            <li class="info-content__item" data-tab="1">01 Мой файл</li>
+            <li class="info-content__item" data-tab="2">02 blabla</li>
+            <li class="info-content__item" data-tab="3">03 blabla</li>
+            <li class="info-content__item" data-tab="4">04 blabla</li>
+            <li class="info-content__item active" data-tab="5">
+              <div class="tab-content">
+                <div class="tab-content__text">
+                  <p>Cохраняйте все полезные материалы на нашем сайте в один документ, который будет сгенерирован в удобном виде в формате PDF</p>
+                  <p>Помечайте необходимые материалы
+                    <svg class="tab-content__icon">
+                      <use xlink:href="img/sprites/sprite.svg#file"></use>
+                    </svg><i>(статьи, изображения, инструкции, новости и.т.д.)</i>
+                  </p>
+                  <p>Зайдите в Мой файл и нажмите кнопку “Сгенерировать”</p>
+                  <p>Получите готовый документ на e-mail</p>
+                  <p>Или выберите один из готовых файлов, собранный нашими специалистами по интересующей вас теме</p><a class="tab-content__btn" href="#">
+                    <svg class="tab-content__icon">
+                      <use xlink:href="img/sprites/sprite.svg#file"></use>
+                    </svg>Мой файл</a>
+                </div>
+                <div class="tab-slider">
+                  <div class="slider3-wrap">
+                    <div class="slider3">
+                      <div class="slider3-item">
+                        <div class="slider3-item__head">
+                          <svg class="slider3-item__icon">
+                            <use xlink:href="img/sprites/sprite.svg#file"></use>
+                          </svg><img class="slider3-item__img" src="img/slider3.png">
+                        </div>
+                        <div class="slider3-item__body"><a class="slider3-item__title" href="#">Готовый файл “Продольно- фрезерные станки РАМА”</a><i class="slider3-item__text">И.Иванов, <br>менеджер по продажам</i>
+                          <ul class="slider3-tag">
+                            <li class="slider3-tag__item">Продольно-фрезерный</li>
+                            <li class="slider3-tag__item light">Поставка</li>
+                            <li class="slider3-tag__item yellow">РАМА</li>
+                            <li class="slider3-tag__item">...</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="slider3-item">
+                        <div class="slider3-item__head">
+                          <svg class="slider3-item__icon">
+                            <use xlink:href="img/sprites/sprite.svg#file"></use>
+                          </svg><img class="slider3-item__img" src="img/slider3.png">
+                        </div>
+                        <div class="slider3-item__body"><a class="slider3-item__title" href="#">Готовый файл “Продольно- фрезерные станки РАМА”</a><i class="slider3-item__text">И.Иванов, <br>менеджер по продажам</i>
+                          <ul class="slider3-tag">
+                            <li class="slider3-tag__item">Продольно-фрезерный</li>
+                            <li class="slider3-tag__item light">Поставка</li>
+                            <li class="slider3-tag__item yellow">РАМА</li>
+                            <li class="slider3-tag__item">...</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="slider3-item">
+                        <div class="slider3-item__head">
+                          <svg class="slider3-item__icon">
+                            <use xlink:href="img/sprites/sprite.svg#file"></use>
+                          </svg><img class="slider3-item__img" src="img/slider3.png">
+                        </div>
+                        <div class="slider3-item__body"><a class="slider3-item__title" href="#">Готовый файл “Продольно- фрезерные станки РАМА”</a><i class="slider3-item__text">И.Иванов, <br>менеджер по продажам</i>
+                          <ul class="slider3-tag">
+                            <li class="slider3-tag__item">Продольно-фрезерный</li>
+                            <li class="slider3-tag__item light">Поставка</li>
+                            <li class="slider3-tag__item yellow">РАМА</li>
+                            <li class="slider3-tag__item">...</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="slider3-item">
+                        <div class="slider3-item__head">
+                          <svg class="slider3-item__icon">
+                            <use xlink:href="img/sprites/sprite.svg#file"></use>
+                          </svg><img class="slider3-item__img" src="img/slider3.png">
+                        </div>
+                        <div class="slider3-item__body"><a class="slider3-item__title" href="#">Готовый файл “Продольно- фрезерные станки РАМА”</a><i class="slider3-item__text">И.Иванов, <br>менеджер по продажам</i>
+                          <ul class="slider3-tag">
+                            <li class="slider3-tag__item">Продольно-фрезерный</li>
+                            <li class="slider3-tag__item light">Поставка</li>
+                            <li class="slider3-tag__item yellow">РАМА</li>
+                            <li class="slider3-tag__item">...</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <ul class="slider-nav">
+                      <li class="slider-arrow_prev slider-arrow slider3-arrow_prev">
+                        <svg class="slider-arrow__icon">
+                          <use xlink:href="img/sprites/sprite.svg#left-arrow"></use>
+                        </svg>
+                      </li>
+                      <li class="slider-arrow_next slider-arrow slider3-arrow_next">
+                        <svg class="slider-arrow__icon">
+                          <use xlink:href="img/sprites/sprite.svg#right-arrow"></use>
+                        </svg>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container footer-container"><a class="logo" href="#"><img src="img/footer-logo.png"></a>
+        <div class="footer-wrap">
+          <div class="footer-top">
+            <nav>
+              <ul class="footer-menu menu">
+                <li class="menu__main footer-menu__main_size"><a href="#">Ретрофит комплекты</a></li>
+                <li class="menu__item delimiter"><a href="#">токарные</a></li>
+                <li class="menu__item"><a href="#">фрезерные</a></li>
+                <li class="menu__item menu__item_gray"><a href="#">комплектация</a></li>
+              </ul>
+            </nav>
+            <div class="footer-contact">
+              <div class="footer-contact__item"><a class="footer-contact__number" href="tel:+74812302559">+7 (481) 230-25-59</a><span class="footer-contact__note">Звонок по России бесплатный</span></div>
+              <div class="footer-contact__item"><a class="footer-contact__number" href="tel:+375296170015">+375 (29) 617-00-15</a><span class="footer-contact__note">Беларусь</span></div>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <ul class="adress">
+              <li class="adress__item">
+                <p class="adress__text"><b>Российская Федерация</b>, 214005, Смоленск<br>ул. Свердлова, 24, офис 3/1 <br>8.00-17.00 по МСК</p>
+                <div class="adress-mail"><a class="adress-mail__link" href="tel:+78003507404">+7 (800) 350-74-04 </a><a class="adress-mail__link" href="mailto:info@sitek-group.ru">info@sitek-group.ru</a></div>
+              </li>
+              <li class="adress__item">
+                <p class="adress__text"><b>Республика Беларусь</b>, 220040, Минск, ул. <br>Сурганова, 88, помещение 3, офис 1 <br>9.00-18.00 по МСК</p>
+                <div class="adress-mail"><a class="adress-mail__link" href="tel:+375172170015">+375 (17) 217-00-15</a><a class="adress-mail__link" href="mailto:info@sitek-group.ru">info@sitek-group.ru</a></div>
+              </li>
+            </ul>
+            <div class="soc">
+              <ul class="soc-list">
+                <li class="soc-list__item"><a href="#"> 
+                    <svg class="soc-list__icon">
+                      <use xlink:href="img/sprites/sprite.svg#1"></use>
+                    </svg></a></li>
+                <li class="soc-list__item"><a href="#"> 
+                    <svg class="soc-list__icon">
+                      <use xlink:href="img/sprites/sprite.svg#2"></use>
+                    </svg></a></li>
+                <li class="soc-list__item"><a href="#"> 
+                    <svg class="soc-list__icon">
+                      <use xlink:href="img/sprites/sprite.svg#3"></use>
+                    </svg></a></li>
+                <li class="soc-list__item"><a href="#"> 
+                    <svg class="soc-list__icon">
+                      <use xlink:href="img/sprites/sprite.svg#4"></use>
+                    </svg></a></li>
+                <li class="soc-list__item"><a href="#"> 
+                    <svg class="soc-list__icon">
+                      <use xlink:href="img/sprites/sprite.svg#5"></use>
+                    </svg></a></li>
+                <li class="soc-list__item"><a href="#"> 
+                    <svg class="soc-list__icon">
+                      <use xlink:href="img/sprites/sprite.svg#inst"></use>
+                    </svg></a></li>
+              </ul><span class="public-ofert">Не является публичной офертой</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer><div style="display: none;" id="modal">
+<h2>Hello!</h2>
+<p>You are awesome!</p>
+</div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/vendor.js"></script>
+  </body>
+</html>
