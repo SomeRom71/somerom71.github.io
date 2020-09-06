@@ -832,14 +832,15 @@ iframe {
 
 /* line 134, src/sass/main.scss */
 .long {
-  background: url("../img/long-bg.png");
+  background: url("../img/long-bg-sm.png");
+  background-repeat: repeat-y;
   background-size: contain;
   padding: 100px 0;
   position: relative;
   z-index: 1;
 }
 
-/* line 141, src/sass/main.scss */
+/* line 142, src/sass/main.scss */
 .long.black-end:after {
   content: " ";
   position: absolute;
@@ -851,18 +852,18 @@ iframe {
   z-index: -1;
 }
 
-/* line 152, src/sass/main.scss */
+/* line 153, src/sass/main.scss */
 .long-product {
   background: url("../img/long-bg-sm.png");
   background-size: contain;
 }
 
-/* line 158, src/sass/main.scss */
+/* line 159, src/sass/main.scss */
 .slider {
   margin: 36px -15px 0;
 }
 
-/* line 160, src/sass/main.scss */
+/* line 161, src/sass/main.scss */
 .slider-item {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
@@ -884,25 +885,25 @@ iframe {
   outline: none;
 }
 
-/* line 173, src/sass/main.scss */
+/* line 174, src/sass/main.scss */
 .slider-item.active {
   color: #574d89;
   background-color: #fff;
 }
 
-/* line 180, src/sass/main.scss */
+/* line 181, src/sass/main.scss */
 .slick-next,
 .slick-prev {
   height: auto;
 }
 
-/* line 183, src/sass/main.scss */
+/* line 184, src/sass/main.scss */
 .slick-next:before,
 .slick-prev:before {
   content: none;
 }
 
-/* line 188, src/sass/main.scss */
+/* line 189, src/sass/main.scss */
 .products-list {
   margin-top: 55px;
   display: grid;
@@ -910,12 +911,12 @@ iframe {
   grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
 }
 
-/* line 193, src/sass/main.scss */
+/* line 194, src/sass/main.scss */
 .products-list__btn {
   margin: 64px auto 0;
 }
 
-/* line 198, src/sass/main.scss */
+/* line 199, src/sass/main.scss */
 .product {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -932,7 +933,7 @@ iframe {
   position: relative;
 }
 
-/* line 205, src/sass/main.scss */
+/* line 206, src/sass/main.scss */
 .product__title {
   font-weight: 500;
   font-size: 20px;
@@ -943,7 +944,7 @@ iframe {
   display: inline-block;
 }
 
-/* line 214, src/sass/main.scss */
+/* line 215, src/sass/main.scss */
 .product__btn {
   margin-top: 35px;
   background: transparent;
@@ -951,14 +952,14 @@ iframe {
   border: 2px solid #574d89;
 }
 
-/* line 219, src/sass/main.scss */
+/* line 220, src/sass/main.scss */
 .product__btn:hover {
   background: #574d89;
   color: #fff;
   border: 2px solid #fff;
 }
 
-/* line 225, src/sass/main.scss */
+/* line 226, src/sass/main.scss */
 .product__more {
   font-weight: normal;
   font-size: 18px;
@@ -968,17 +969,17 @@ iframe {
   margin-top: 33px;
 }
 
-/* line 232, src/sass/main.scss */
+/* line 233, src/sass/main.scss */
 .product__more:hover {
   color: #574d89;
 }
 
-/* line 236, src/sass/main.scss */
+/* line 237, src/sass/main.scss */
 .product__img {
   max-width: 100%;
 }
 
-/* line 241, src/sass/main.scss */
+/* line 242, src/sass/main.scss */
 .label {
   position: absolute;
   top: 0;
@@ -997,28 +998,28 @@ iframe {
   background: #be2e21;
 }
 
-/* line 251, src/sass/main.scss */
+/* line 252, src/sass/main.scss */
 .label img {
   margin-right: 14px;
 }
 
-/* line 256, src/sass/main.scss */
+/* line 257, src/sass/main.scss */
 .contact-us {
   margin-top: 110px;
   background: linear-gradient(76.08deg, #331c62 20.11%, #604694 63.66%);
 }
 
-/* line 259, src/sass/main.scss */
+/* line 260, src/sass/main.scss */
 .contact-us__title {
   max-width: 515px;
 }
 
-/* line 262, src/sass/main.scss */
+/* line 263, src/sass/main.scss */
 .contact-us__btn {
   margin-top: 40px;
 }
 
-/* line 265, src/sass/main.scss */
+/* line 266, src/sass/main.scss */
 .contact-us__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1031,17 +1032,17 @@ iframe {
           justify-content: space-between;
 }
 
-/* line 272, src/sass/main.scss */
+/* line 273, src/sass/main.scss */
 .map {
   margin-right: 115px;
 }
 
-/* line 276, src/sass/main.scss */
+/* line 277, src/sass/main.scss */
 .about {
   margin-top: 100px;
 }
 
-/* line 278, src/sass/main.scss */
+/* line 279, src/sass/main.scss */
 .about-row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1055,25 +1056,25 @@ iframe {
   margin-bottom: 90px;
 }
 
-/* line 283, src/sass/main.scss */
+/* line 284, src/sass/main.scss */
 .about-row > *:first-child {
   margin-right: 80px;
 }
 
-/* line 286, src/sass/main.scss */
+/* line 287, src/sass/main.scss */
 .about-row__text {
   font-size: 18px;
   line-height: 25px;
   letter-spacing: 0.04em;
 }
 
-/* line 294, src/sass/main.scss */
+/* line 295, src/sass/main.scss */
 .how-buy {
   background: url("../img/how-buy-bg.jpg");
   padding: 100px 0;
 }
 
-/* line 299, src/sass/main.scss */
+/* line 300, src/sass/main.scss */
 .places {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1084,7 +1085,7 @@ iframe {
   margin-top: 37px;
 }
 
-/* line 305, src/sass/main.scss */
+/* line 306, src/sass/main.scss */
 .place {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1099,7 +1100,7 @@ iframe {
   width: 355px;
 }
 
-/* line 310, src/sass/main.scss */
+/* line 311, src/sass/main.scss */
 .place__title {
   font-weight: 500;
   font-size: 18px;
@@ -1108,7 +1109,7 @@ iframe {
   text-align: center;
 }
 
-/* line 318, src/sass/main.scss */
+/* line 319, src/sass/main.scss */
 .place-logo-wrap {
   margin-top: 48px;
   height: 63px;
@@ -1120,13 +1121,13 @@ iframe {
           align-items: center;
 }
 
-/* line 324, src/sass/main.scss */
+/* line 325, src/sass/main.scss */
 .place-logo_text {
   font-weight: bold;
   font-size: 52.5536px;
 }
 
-/* line 329, src/sass/main.scss */
+/* line 330, src/sass/main.scss */
 .place__contact {
   width: 100%;
   margin-top: 40px;
@@ -1135,7 +1136,7 @@ iframe {
   text-align: center;
 }
 
-/* line 335, src/sass/main.scss */
+/* line 336, src/sass/main.scss */
 .place__contact a {
   padding: 0 5px;
   font-weight: 500;
@@ -1143,7 +1144,7 @@ iframe {
   line-height: 25px;
 }
 
-/* line 344, src/sass/main.scss */
+/* line 345, src/sass/main.scss */
 .contacts-main {
   margin-top: 105px;
   background-color: #fff;
@@ -1155,32 +1156,32 @@ iframe {
           align-items: center;
 }
 
-/* line 349, src/sass/main.scss */
+/* line 350, src/sass/main.scss */
 .contacts-main__info {
   padding-left: 90px;
   width: 50%;
 }
 
-/* line 353, src/sass/main.scss */
+/* line 354, src/sass/main.scss */
 .contacts-main__title {
   font-weight: 900;
   font-size: 31px;
   color: #000000;
 }
 
-/* line 358, src/sass/main.scss */
+/* line 359, src/sass/main.scss */
 .contacts-main__map {
   width: 50%;
   font-size: 0;
   height: 526px;
 }
 
-/* line 363, src/sass/main.scss */
+/* line 364, src/sass/main.scss */
 .contacts-main__list {
   margin-top: 30px;
 }
 
-/* line 366, src/sass/main.scss */
+/* line 367, src/sass/main.scss */
 .contacts-main__item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1194,27 +1195,27 @@ iframe {
   letter-spacing: 0.04em;
 }
 
-/* line 373, src/sass/main.scss */
+/* line 374, src/sass/main.scss */
 .contacts-main__item:not(:first-child) {
   margin-top: 50px;
 }
 
-/* line 376, src/sass/main.scss */
+/* line 377, src/sass/main.scss */
 .contacts-main__item img {
   margin-right: 38px;
 }
 
-/* line 380, src/sass/main.scss */
+/* line 381, src/sass/main.scss */
 .contacts-main__link {
   color: #000000;
 }
 
-/* line 385, src/sass/main.scss */
+/* line 386, src/sass/main.scss */
 .footer {
   background: #484a4b;
 }
 
-/* line 388, src/sass/main.scss */
+/* line 389, src/sass/main.scss */
 .footer-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1228,21 +1229,21 @@ iframe {
           justify-content: space-between;
 }
 
-/* line 394, src/sass/main.scss */
+/* line 395, src/sass/main.scss */
 .footer-designer {
   font-weight: 500;
   font-size: 18px;
   line-height: 24px;
 }
 
-/* line 399, src/sass/main.scss */
+/* line 400, src/sass/main.scss */
 .footer-link {
   font-size: 18px;
   text-decoration: underline;
   letter-spacing: 0.04em;
 }
 
-/* line 406, src/sass/main.scss */
+/* line 407, src/sass/main.scss */
 .product-main {
   padding-top: 70px;
   background: url("../svg/product-bg.svg"), #000000;
@@ -1251,12 +1252,12 @@ iframe {
   position: relative;
 }
 
-/* line 414, src/sass/main.scss */
+/* line 415, src/sass/main.scss */
 .breadcrumbs {
   margin-top: 25px;
 }
 
-/* line 416, src/sass/main.scss */
+/* line 417, src/sass/main.scss */
 .breadcrumbs__item {
   font-weight: normal;
   font-size: 14px;
@@ -1266,14 +1267,14 @@ iframe {
   padding-right: 5px;
 }
 
-/* line 423, src/sass/main.scss */
+/* line 424, src/sass/main.scss */
 .breadcrumbs__item:not(:first-child) {
   padding-left: 12px;
   background: url("../svg/arrow-sm.svg") no-repeat;
   background-position: 0 6px;
 }
 
-/* line 431, src/sass/main.scss */
+/* line 432, src/sass/main.scss */
 .product-block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1284,7 +1285,7 @@ iframe {
   margin-top: 35px;
 }
 
-/* line 435, src/sass/main.scss */
+/* line 436, src/sass/main.scss */
 .product-block__img {
   background: #fff;
   width: 100%;
@@ -1303,17 +1304,17 @@ iframe {
           flex: 1 0 auto;
 }
 
-/* line 444, src/sass/main.scss */
+/* line 445, src/sass/main.scss */
 .product-block__info {
   margin-left: 105px;
 }
 
-/* line 447, src/sass/main.scss */
+/* line 448, src/sass/main.scss */
 .product-block__btn {
   margin-top: 40px;
 }
 
-/* line 451, src/sass/main.scss */
+/* line 452, src/sass/main.scss */
 .product-block__description-title {
   display: inline-block;
   font-weight: bold;
@@ -1322,14 +1323,14 @@ iframe {
   margin-top: 23px;
 }
 
-/* line 458, src/sass/main.scss */
+/* line 459, src/sass/main.scss */
 .product-block__description-text {
   margin-top: 22px;
   font-size: 18px;
   line-height: 25px;
 }
 
-/* line 466, src/sass/main.scss */
+/* line 467, src/sass/main.scss */
 .product-slider {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1338,7 +1339,7 @@ iframe {
   margin-top: 40px;
 }
 
-/* line 470, src/sass/main.scss */
+/* line 471, src/sass/main.scss */
 .product-slider .product {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1346,46 +1347,46 @@ iframe {
   margin: 0 15px;
 }
 
-/* line 474, src/sass/main.scss */
+/* line 475, src/sass/main.scss */
 .product-slider-prev, .product-slider-next {
   border: 2px solid #ffffff;
   width: 74px;
   height: 70px;
 }
 
-/* line 480, src/sass/main.scss */
+/* line 481, src/sass/main.scss */
 .product-slider-prev {
   left: -75px;
 }
 
-/* line 483, src/sass/main.scss */
+/* line 484, src/sass/main.scss */
 .product-slider-next {
   right: -75px;
 }
 
-/* line 488, src/sass/main.scss */
+/* line 489, src/sass/main.scss */
 .catalog {
   margin-top: 35px;
 }
 
-/* line 490, src/sass/main.scss */
+/* line 491, src/sass/main.scss */
 .catalog__text {
   margin-top: 10px;
   font-size: 18px;
   line-height: 21px;
 }
 
-/* line 495, src/sass/main.scss */
+/* line 496, src/sass/main.scss */
 .catalog-about {
   margin-top: 100px;
 }
 
-/* line 497, src/sass/main.scss */
+/* line 498, src/sass/main.scss */
 .catalog-about__title {
   line-height: 43px;
 }
 
-/* line 503, src/sass/main.scss */
+/* line 504, src/sass/main.scss */
 .search {
   margin-top: 15px;
   display: -webkit-box;
@@ -1393,7 +1394,7 @@ iframe {
   display: flex;
 }
 
-/* line 506, src/sass/main.scss */
+/* line 507, src/sass/main.scss */
 .search__input {
   width: 540px;
   padding: 0 10px;
@@ -1403,7 +1404,7 @@ iframe {
   border: none;
 }
 
-/* line 514, src/sass/main.scss */
+/* line 515, src/sass/main.scss */
 .search__btn {
   outline: none;
   border: none;
@@ -1416,7 +1417,7 @@ iframe {
   width: 230px;
 }
 
-/* line 527, src/sass/main.scss */
+/* line 528, src/sass/main.scss */
 .catalog-main {
   background: url(../svg/product-bg.svg), url(../img/long-bg-sm.png) 100% 1015px, #000000;
   background-repeat: no-repeat;
@@ -1424,7 +1425,7 @@ iframe {
   position: relative;
 }
 
-/* line 535, src/sass/main.scss */
+/* line 536, src/sass/main.scss */
 .pagination {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1432,7 +1433,7 @@ iframe {
   margin-top: 65px;
 }
 
-/* line 538, src/sass/main.scss */
+/* line 539, src/sass/main.scss */
 .pagination-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1440,7 +1441,7 @@ iframe {
   margin-right: 30px;
 }
 
-/* line 541, src/sass/main.scss */
+/* line 542, src/sass/main.scss */
 .pagination-list__item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1461,17 +1462,17 @@ iframe {
   letter-spacing: 0.04em;
 }
 
-/* line 553, src/sass/main.scss */
+/* line 554, src/sass/main.scss */
 .pagination-list__item.active {
   color: #574d89;
 }
 
-/* line 556, src/sass/main.scss */
+/* line 557, src/sass/main.scss */
 .pagination-list__item:not(:last-child) {
   border-right: 1px solid #e3e3e3;
 }
 
-/* line 564, src/sass/main.scss */
+/* line 565, src/sass/main.scss */
 .menu-btn {
   display: none;
   background: none;
@@ -1486,12 +1487,12 @@ iframe {
   margin-left: 20px;
 }
 
-/* line 574, src/sass/main.scss */
+/* line 575, src/sass/main.scss */
 .menu-btn img {
   margin-right: 5px;
 }
 
-/* line 581, src/sass/main.scss */
+/* line 582, src/sass/main.scss */
 .mobile-menu {
   display: none;
   position: fixed;
@@ -1514,7 +1515,7 @@ iframe {
   background-color: #331c61;
 }
 
-/* line 595, src/sass/main.scss */
+/* line 596, src/sass/main.scss */
 .mobile-menu.active {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1522,23 +1523,23 @@ iframe {
   width: 100%;
 }
 
-/* line 599, src/sass/main.scss */
+/* line 600, src/sass/main.scss */
 .mobile-menu__logo {
   margin-top: 20px;
 }
 
-/* line 603, src/sass/main.scss */
+/* line 604, src/sass/main.scss */
 .mobile-nav {
   margin-top: 30px;
 }
 
-/* line 605, src/sass/main.scss */
+/* line 606, src/sass/main.scss */
 .mobile-nav .menu-item {
   display: block;
   margin: 0 0 25px 0;
 }
 
-/* line 613, src/sass/main.scss */
+/* line 614, src/sass/main.scss */
 .catalog-wrapper {
   margin-top: 15px;
   display: -webkit-box;
@@ -1549,12 +1550,12 @@ iframe {
           justify-content: space-between;
 }
 
-/* line 618, src/sass/main.scss */
+/* line 619, src/sass/main.scss */
 .catalog-slider {
   margin: 20px 25px;
 }
 
-/* line 621, src/sass/main.scss */
+/* line 622, src/sass/main.scss */
 .catalog-list {
   margin-top: 10px;
 }
