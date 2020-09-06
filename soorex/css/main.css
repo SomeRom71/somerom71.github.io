@@ -1846,14 +1846,18 @@ iframe {
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
   }
+  /* line 218, src/sass/components/_media.scss */
+  .long {
+    background-size: cover;
+  }
 }
 
 @media (max-width: 360px) {
-  /* line 221, src/sass/components/_media.scss */
+  /* line 224, src/sass/components/_media.scss */
   .title {
     font-size: 18px;
   }
-  /* line 225, src/sass/components/_media.scss */
+  /* line 228, src/sass/components/_media.scss */
   .contacts-main__item {
     font-size: 14px;
   }
